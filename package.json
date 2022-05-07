@@ -1,0 +1,16 @@
+{
+  "name": "project-demos",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:sunkeysun/project-demos.git",
+  "author": "sunkeysun <sunkeysun@tencent.com>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "projects/*"
+    ]
+  },
+  "devDependencies": {
+    "wsrun": "^5.2.4"
+  }
+}
