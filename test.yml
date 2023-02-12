@@ -1,0 +1,8 @@
+version: "3.0"
+services:
+        server:
+                image: sunkeysun/shadowsocks
+                network_mode: host
+                ports:
+                        - 1200:1200
+                command: -p 1200 -k helloworld -m aes-256-cfb
